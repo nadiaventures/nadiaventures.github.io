@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/iphone-12-12-pro-3.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="iphone-12-12-pro-3" />
+    <div class="container-center-horizontal">
+      <form class="iphone-12-12-pro-3 screen" name="form3" action="form3" method="post">
+        <img class="rectangle-3-W5uqji" src="img/rectangle-3-1@1x.png" />
+        <div class="rectangle-1-W5uqji"></div>
+        <a href="iphone-12-12-pro-2.html"><img class="path-5-W5uqji" src="img/path-5@1x.png" /></a
+        ><a href="iphone-12-12-pro-2.html"><div class="application-process-W5uqji">Application Process</div></a>
+        <div class="welcome-to-the-university-app-W5uqji">Welcome to the Social <br />Chiba University App</div>
+        <div class="here-you-will-b-ication-process-W5uqji">
+          Here you will be able to meet your<br />Future friends and class mates.<br /><br />Current students, that are
+          here to<br />Help you in this journey.<br /><br />And finally Keiko, that will help you <br />With all the
+          application process.
+        </div>
+        <a href="iphone-12-12-pro-2.html"><div class="social-interaction-W5uqji">Social Interaction</div></a>
+      </form>
+    </div>
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>

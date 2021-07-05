@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/iphone-12-12-pro-7.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="iphone-12-12-pro-7" />
+    <div class="container-center-horizontal">
+      <form class="iphone-12-12-pro-7 screen" name="form1" action="form1" method="post">
+        <img class="rectangle-3-hInFam" src="img/rectangle-3@1x.png" /><img
+          class="path-4-hInFam"
+          src="img/path-4@1x.png"
+        />
+        <div class="input-hInFam">
+          <div class="input-5bxBQG">
+            <div class="rectangle-85-6w1Uak border-1px-sail"></div>
+            <input class="email-6w1Uak arial-regular-normal-tower-gray-14px" name="email1" placeholder="Email" />
+          </div>
+          <div class="input-tcjL1t">
+            <div class="rectangle-85-ROFX47 border-1px-sail"></div>
+            <input
+              class="password-ROFX47 arial-regular-normal-tower-gray-14px"
+              name="password1"
+              placeholder="Password"
+            />
+          </div>
+          <div class="input-x1xrha">
+            <div class="rectangle-85-Jk7rXt border-1px-sail"></div>
+            <input
+              class="confirm-password-Jk7rXt arial-regular-normal-tower-gray-14px"
+              name="confirm-password1"
+              placeholder="Confirm Password"
+            />
+          </div>
+          <div class="input-gk2Egm">
+            <div class="rectangle-85-tyK5Jf border-1px-sail"></div>
+            <label>
+              <select class="confirm-password-tyK5Jf arial-regular-normal-tower-gray-14px">
+                <option value="9">China</option>
+                <option value="1">Japan</option>
+                <option value="9">Korea</option>
+                <option value="9">Portugal</option>
+                <option value="2">United states</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div class="create-an-account-hInFam">Create an Account</div>
+        <p class="by-creating-an-privacy-policy-hInFam">
+          By creating an account you agree to our<br />Terms of Service and Privacy Policy
+        </p>
+        <div class="input-vZplMh">
+          <div class="rectangle-85-y2xxBN border-1px-sail">
+            <p class="arial-regular-normal-tower-gray-14px" style="text-align: center"> <br /><br /><br /><br />   Upload your profile photo</p>
+
+          </div>
+        </div>
+        <
+        <input id="myFileInput" class="confirm-password-hInFam arial-regular-normal-tower-gray-14px" type="file" accept="image/*;capture=camera">
+
+        </input>
+        <div class="group-1-hInFam">
+          <div class="input-jEAbg8">
+            <div class="rectangle-85-V8ks3G border-1px-sail"></div>
+          </div>
+          <div  class="confirm-password-jEAbg8 arial-regular-normal-tower-gray-14px">Select who you are</div>
+
+          <p id="int1" class="confirm-password-PEhhEO sele">
+            International Student<br /><br />
+          </p>
+
+          <p id="jap1" class="confirm-password-PEhhEO sele">
+
+            <br /><br /> Japanese Student<br />
+          </p>
+          <p id="for1" class="confirm-password-PEhhEO sele">
+
+            <br /><br /><br /><br />Current foreigner Student<br />
+          </p>
+          <div id="int" class="ellipse-1-jEAbg8 border-1px-dodger-blue sele"></div>
+          <div id="jap" class="ellipse-2-jEAbg8 border-1px-dodger-blue sele"></div>
+          <div id="for" class="ellipse-3-jEAbg8 border-1px-dodger-blue sele"></div>
+        </div>
+        <a href="iphone-12-12-pro-3.html">
+          <div class="continue-hInFam">
+            <div class="rectangle-119-yvbKNu"></div>
+            <div class="continue-yvbKNu arial-bold-dodger-blue-10px">CONTINUE</div>
+          </div></a
+        >
+      </form>
+    </div>
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+
+
+
+
+
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+
+      document.getElementById('int').onclick = function(){
+        document.getElementById("int").style.backgroundColor = "#2699FB";
+        document.getElementById("jap").style.backgroundColor = "#FFFF";
+        document.getElementById("for").style.backgroundColor = "#FFFF";
+        console.log("int");
+      };
+
+      document.getElementById('jap').onclick = function(){
+        document.getElementById("jap").style.backgroundColor = "#2699FB";
+        document.getElementById("int").style.backgroundColor = "#FFFF";
+        document.getElementById("for").style.backgroundColor = "#FFFF";
+      };
+
+      document.getElementById('for').onclick = function(){
+        document.getElementById("for").style.backgroundColor = "#2699FB";
+        document.getElementById("jap").style.backgroundColor = "#FFFF";
+        document.getElementById("int").style.backgroundColor = "#FFFF";
+      };
+
+
+    </script>
+  </body>
+</html>

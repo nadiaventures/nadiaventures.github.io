@@ -1,0 +1,108 @@
+/* screen - iphone-12-12-pro-3 */
+
+.iphone-12-12-pro-3 {
+  background-color: var(--white);
+  height: 844px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 390px;
+}
+.iphone-12-12-pro-3 .application-process-W5uqji {
+  background-color: transparent;
+  color: var(--dove-gray);
+  cursor: pointer;
+  font-family: var(--font-family-helveticaneue-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 104px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 724px;
+  white-space: nowrap;
+  width: auto;
+}
+.iphone-12-12-pro-3 .here-you-will-b-ication-process-W5uqji {
+  background-color: transparent;
+  color: var(--alice-blue);
+  font-family: var(--font-family-helveticaneue-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 39px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 222px;
+  white-space: nowrap;
+  width: auto;
+}
+.iphone-12-12-pro-3 .path-5-W5uqji {
+  background-color: transparent;
+  cursor: pointer;
+  height: 148px;
+  left: 37px;
+  object-fit: cover;
+  position: absolute;
+  top: 472px;
+  width: 309px;
+}
+.iphone-12-12-pro-3 .rectangle-1-W5uqji {
+  background-color: #ceebee;
+  border-radius: 35px;
+  height: 148px;
+  left: 37px;
+  position: absolute;
+  top: 660px;
+  width: 309px;
+}
+.iphone-12-12-pro-3 .rectangle-3-W5uqji {
+  background-color: transparent;
+  height: 844px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 390px;
+}
+.iphone-12-12-pro-3 .social-interaction-W5uqji {
+  background-color: transparent;
+  color: var(--dove-gray);
+  cursor: pointer;
+  font-family: var(--font-family-helveticaneue-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 115px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 536px;
+  white-space: nowrap;
+  width: auto;
+}
+.iphone-12-12-pro-3 .welcome-to-the-university-app-W5uqji {
+  background-color: transparent;
+  color: var(--alice-blue);
+  font-family: var(--font-family-helveticaneue-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 93px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 46px;
+  white-space: nowrap;
+  width: auto;
+}

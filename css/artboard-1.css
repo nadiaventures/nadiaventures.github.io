@@ -1,0 +1,300 @@
+/* screen - artboard-1 */
+
+#overlay-artboard-1 {
+  background-color: transparent;
+  position: absolute;
+}
+#overlay-artboard-1 .artboard-1 {
+  left: 17px;
+  top: 87px;
+}
+#overlay-artboard-1 .container-center-horizontal {
+  justify-content: normal;
+}
+.artboard-1 {
+  background-color: transparent;
+  cursor: pointer;
+  height: 513px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 255px;
+}
+.artboard-1 .avatar-GK9LGt {
+  background-color: transparent;
+  height: 40px;
+  left: 32px;
+  position: absolute;
+  top: 32px;
+  width: 40px;
+}
+.artboard-1 .avatar-XSArT0 {
+  background-color: transparent;
+  height: 40px;
+  left: 32px;
+  position: absolute;
+  top: 32px;
+  width: 40px;
+}
+.artboard-1 .ellipse-154-9x2Dxw {
+  background-color: var(--dodger-blue);
+  border-radius: 20px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.artboard-1 .ellipse-154-RuiX7H {
+  background-color: var(--submarine);
+  border-radius: 20px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.artboard-1 .ellipse-155-2IKS0L {
+  background-color: var(--white);
+  border-radius: 3.749952793121338px/3.7499518394470215px;
+  height: 7px;
+  left: 4px;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 7px);
+}
+.artboard-1 .ellipse-155-BpW3xo {
+  background-color: var(--white);
+  border-radius: 3.749952793121338px/3.7499518394470215px;
+  height: 7px;
+  left: 4px;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 7px);
+}
+.artboard-1 .explore-cF7spD {
+  background-color: transparent;
+  height: 13px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 48px;
+  position: absolute;
+  text-align: left;
+  top: calc(11.28% - 1px);
+  white-space: nowrap;
+  width: 74px;
+}
+.artboard-1 .feed-cF7spD {
+  background-color: transparent;
+  height: 13px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 48px;
+  position: absolute;
+  text-align: left;
+  top: -19px;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+.artboard-1 .icon-ionic-ios-settings-XSArT0 {
+  background-color: transparent;
+  height: 18px;
+  left: 228px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 18px;
+}
+.artboard-1 .john-doe-Nqs43D {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-arial-bold);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 700;
+  height: 18px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: -5px;
+  white-space: nowrap;
+  width: 66px;
+}
+.artboard-1 .john-doe-Y5f7HX {
+  background-color: transparent;
+  color: var(--submarine);
+  font-family: var(--font-family-arial-bold);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 700;
+  height: 18px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: -5px;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+.artboard-1 .menu-XSArT0 {
+  background-color: transparent;
+  height: 270px;
+  left: 50px;
+  position: absolute;
+  top: 147px;
+  width: 131px;
+}
+.artboard-1 .messages-cF7spD {
+  background-color: transparent;
+  height: 13px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 48px;
+  position: absolute;
+  text-align: left;
+  top: calc(29.96% - 4px);
+  white-space: nowrap;
+  width: 88px;
+}
+.artboard-1 .name-GK9LGt {
+  background-color: transparent;
+  height: 31px;
+  left: 88px;
+  position: absolute;
+  top: 37px;
+  width: 105px;
+}
+.artboard-1 .name-XSArT0 {
+  background-color: transparent;
+  height: 31px;
+  left: 88px;
+  position: absolute;
+  top: 37px;
+  width: 85px;
+}
+.artboard-1 .notifications-cF7spD {
+  background-color: transparent;
+  height: 13px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 48px;
+  position: absolute;
+  text-align: left;
+  top: calc(48.64% - 6px);
+  white-space: nowrap;
+  width: 44px;
+}
+.artboard-1 .path-149-2IKS0L {
+  background-color: transparent;
+  bottom: 0px;
+  height: 6px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+}
+.artboard-1 .path-149-BpW3xo {
+  background-color: transparent;
+  bottom: 0px;
+  height: 6px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+}
+.artboard-1 .photos-cF7spD {
+  background-color: transparent;
+  bottom: calc(32.68% - 4px);
+  height: 13px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 48px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 48px;
+}
+.artboard-1 .rectangle-5-XSArT0 {
+  background-color: #a6c4c8;
+  height: 513px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 255px;
+}
+.artboard-1 .rectangle-550-XSArT0 {
+  background-color: var(--white);
+  height: 104px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 255px;
+}
+.artboard-1 .san-francisco-ca-Nqs43D {
+  background-color: transparent;
+  bottom: 5px;
+  color: var(--white);
+  font-family: var(--font-family-arial-regular);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+  height: 13px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+.artboard-1 .san-francisco-ca-Y5f7HX {
+  background-color: transparent;
+  bottom: 5px;
+  color: var(--submarine);
+  font-family: var(--font-family-arial-regular);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+  height: 13px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 39px;
+}
+.artboard-1 .search-cF7spD {
+  background-color: transparent;
+  bottom: 17px;
+  height: 13px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 48px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 98px;
+}
+.artboard-1 .union-33-9x2Dxw {
+  background-color: transparent;
+  height: 15px;
+  left: calc(50.00% - 7px);
+  position: absolute;
+  top: calc(45.00% - 7px);
+  width: 15px;
+}
+.artboard-1 .union-33-RuiX7H {
+  background-color: transparent;
+  height: 15px;
+  left: calc(50.00% - 7px);
+  position: absolute;
+  top: calc(45.00% - 7px);
+  width: 15px;
+}
+.overlay .artboard-1 {
+  background-color: #00000000;
+}

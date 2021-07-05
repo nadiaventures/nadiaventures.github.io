@@ -1,0 +1,45 @@
+:root {
+  --alice-blue: #f1f9ff;
+  --dodger-blue: #2699fb;
+  --dove-gray: #707070;
+  --sail: #bce0fd;
+  --submarine: #b1c9cb;
+  --tower-gray: #aabbc0;
+  --white: #ffffff;
+
+  --font-size-m: 20px;
+  --font-size-s: 15px;
+  --font-size-xs: 14px;
+  --font-size-xxs: 10px;
+
+  --font-family-arial-bold: "Arial-Bold", Helvetica;
+  --font-family-arial-regular: "Arial-Regular", Helvetica;
+  --font-family-helveticaneue-regular: "HelveticaNeue-Regular", Helvetica;
+}
+.arial-regular-normal-tower-gray-14px {
+  color: var(--tower-gray);
+  font-family: var(--font-family-arial-regular);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+.arial-bold-white-10px {
+  color: var(--white);
+  font-family: var(--font-family-arial-bold);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 700;
+}
+.arial-bold-dodger-blue-10px {
+  color: var(--dodger-blue);
+  font-family: var(--font-family-arial-bold);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 700;
+}
+.border-1px-sail {
+  border: 1px solid var(--sail);
+}
+.border-1px-dodger-blue {
+  border: 1px solid var(--dodger-blue);
+}
